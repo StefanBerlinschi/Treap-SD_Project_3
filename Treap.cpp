@@ -214,11 +214,11 @@ class Treap {
             // cout << "Tatal nodului este " << ptr->parent->data << "\n";
             return ptr->parent;
         }
-        void afisare_sortat(Treap* root) {
+        void print_sorted(Treap* root) {
             if (root == NULL) return;
-            afisare_sortat(root->left);
+            print_sorted(root->left);
             cout << *root;
-            afisare_sortat(root->right);
+            print_sorted(root->right);
         }
 
 
@@ -235,6 +235,6 @@ int main() {
     x.search(7);
     x.succesor(4);
     x.predecesor(7);
-    x.afisare_sortat(x.get_root());
+    x.print_sorted(x.get_root());
     return 0;
 }
