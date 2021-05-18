@@ -1,4 +1,4 @@
-# Treap-SD_Project_3
+# Treap-DS_Project_3
 This is my C++ implementation of the treap data structure.
 
 A treap is a data structure that combines the properties of a Binary Search Tree
